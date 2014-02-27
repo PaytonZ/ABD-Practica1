@@ -1,0 +1,103 @@
+Error que empieza en la línea 1 del comando:
+-– Limpiar “Salida Archivo de Comandos” con el botón de goma de
+Informe de error:
+Comando desconocido
+TABLE_NAME                   
+------------------------------
+EMPRESA                        
+CLIENTE                        
+MOROSO                         
+INVIERTE                       
+TARJETA                        
+COMPRAS                        
+PUESTO                         
+TIENET                         
+
+ 8 filas seleccionadas 
+
+TABLE_NAME                     TABLE_TYPE
+------------------------------ -----------
+BIN$+O4aAEzVSTydr+NN/CcORA==$0 TABLE       
+BIN$/MVJkySjQAWjkOQDolVlFQ==$0 TABLE       
+BIN$19SaZOYDQTytRDMi2xuzSA==$0 TABLE       
+BIN$1EyBMoaeSRuxTqv3i+B22g==$0 TABLE       
+BIN$2EPuiQB+T0+GrpmGATb1FQ==$0 TABLE       
+BIN$48H+ONjqTbmCJ2qS1EU3Uw==$0 TABLE       
+BIN$85j3tp/wSACYeLLCFaff4A==$0 TABLE       
+BIN$8M5GwQMzRguZgQNSNUHxGQ==$0 TABLE       
+BIN$DPbn9J1rT8mA0Ny2onP9pA==$0 TABLE       
+BIN$FJLPg5vLSamw3rSOLKoz9g==$0 TABLE       
+BIN$GTRzayVKTMuOnrMpd2XT9g==$0 TABLE       
+BIN$J05YZYZwS/iH1OziSKQwPA==$0 TABLE       
+BIN$Jn70KGCaQd6AfcPaVP4+SQ==$0 TABLE       
+BIN$MMOqJysFQH6T9XRgb86lzg==$0 TABLE       
+BIN$MjpwVkX7TguVHrvXKUcYRQ==$0 TABLE       
+BIN$NHRhPFjzQvCAnlBHe+48+w==$0 TABLE       
+BIN$NbGAyObNTCm7rKP8Ne4jyA==$0 TABLE       
+BIN$O+347VX0Rg2tqaLDCI92wg==$0 TABLE       
+BIN$O6Amei/YRjmzDc4xI4vTRA==$0 TABLE       
+BIN$TqC0KKLRQNqSwqlNHWUxxg==$0 TABLE       
+BIN$U/1Oud35S2KEz/waEZIrng==$0 TABLE       
+BIN$UWAyYhreTFCAfOhLWqk18w==$0 TABLE       
+BIN$YqbBcqVkQHOD5h4brNp5Rw==$0 TABLE       
+BIN$ZkTxPNrgSl+MeFxFuqXCMQ==$0 TABLE       
+BIN$aS5oqR9vTlOnbTrgaB8CZA==$0 TABLE       
+BIN$cL2cG7DDT3OKVRupNfAehQ==$0 TABLE       
+BIN$daiyFgONQSezVGEMB47OVQ==$0 TABLE       
+BIN$dnK+cLhCTCyin41EzCZFRg==$0 TABLE       
+BIN$emcYF8lvQimfc33wMjhKbQ==$0 TABLE       
+BIN$fT8fEGZcQ6Cm/BhEdnBTHA==$0 TABLE       
+BIN$fVB5vLnZTbywMq7eJirGmw==$0 TABLE       
+BIN$gSotTjjGRC+qNrNPbtjJdQ==$0 TABLE       
+BIN$gjzfD1hzSr6NDeO5AAo3qQ==$0 TABLE       
+BIN$ibCB7NDtQmmeuYANQOF6ew==$0 TABLE       
+BIN$jzYuK1jtQl6HvP1SucBfOA==$0 TABLE       
+BIN$kKgKE162QfiVdbmR7OwpTQ==$0 TABLE       
+BIN$l4/o4YQ1SduvF1FIa0dVoQ==$0 TABLE       
+BIN$l4q81oEoS8y3mnkDZx0jdg==$0 TABLE       
+BIN$mVtUW66nQZCMSDnF55zZ2Q==$0 TABLE       
+BIN$muRtJVO5QIeeNCxuvdYlYQ==$0 TABLE       
+BIN$mvEgQTDWRyKELdk4ef4vCg==$0 TABLE       
+BIN$nLTwBbExS42MXakF9sKnew==$0 TABLE       
+BIN$qKwSIBQDSrWbNSizbSqGVw==$0 TABLE       
+BIN$qb2MBQRhRKSvLCJ3oQln6w==$0 TABLE       
+BIN$sOxGaferTICdm7672BuC/A==$0 TABLE       
+BIN$tAosfRLeTD6Skup+u2U87Q==$0 TABLE       
+BIN$uEonFQ0YQySSqJtAAS77gQ==$0 TABLE       
+BIN$wOt2XhOeSOW4Qs7mWpEj7w==$0 TABLE       
+BIN$wymCqFfxS6eHWWsIb/ZZcA==$0 TABLE       
+BIN$xQyyoZ2bSJi4e//ZpHnHCw==$0 TABLE       
+BIN$xr0oxNrHS9G6nidHcdRSWQ==$0 TABLE       
+BIN$xxMN7ILfQTuVE6WnPlIg1A==$0 TABLE       
+BIN$zrlLflUgR0WDoM7tWsl2Ug==$0 TABLE       
+CLIENTE                        TABLE       
+COMPRAS                        TABLE       
+EMPRESA                        TABLE       
+INVIERTE                       TABLE       
+MOROSO                         TABLE       
+PUESTO                         TABLE       
+TARJETA                        TABLE       
+TIENET                         TABLE       
+
+ 61 filas seleccionadas 
+
+desc cliente
+Nombre    Nulo     Tipo         
+--------- -------- ------------ 
+DNI       NOT NULL CHAR(8)      
+NOMBREC            CHAR(30)     
+DIRECCION          VARCHAR2(50) 
+TELEFONO           CHAR(12)     
+
+  COUNT(*)
+----------
+         6 
+
+POWER(4,3)
+----------
+        64 
+
+SYSDATE
+--------
+27/02/14 
+

@@ -1,0 +1,42 @@
+– Limpiar “Salida Archivo de Comandos” con el botón de goma de borrar
+Como se hizo anteriormente
+(select * from cliente) union (select * from moroso);
+Pasa algo inesperado? Qué es? Porqué? (pista: Son tablas incompatibles, pero porqué?)
+(no lo arregles en este apartado)
+b)(select * from cliente) intersect (select * from moroso);
+no sale nada? Porqué? Arreglarlo en este apartado. Pero debes dejar el ”cliente 6” como está!!
+c)(select * from cliente) minus (select * from moroso);
+Qué pasa? porque?
+d)select * from compras where importe <= all (select importe from compras);
+e) select DNI,nombreC
+from Cliente
+where 'VXK' in (select TipoT
+from Compras, Tarjeta
+where (Cliente.DNI = Compras.DNI AND
+Compras.NumT = Tarjeta.NumT)
+);
+f) insert into moroso
+select *
+from cliente
+where dni = '00000001';
+g) delete from cliente where dni = '00000005';
+porqué falla? como se arregla?
+h) delete from compras where dni= '00000005';
+
+delete from tienet where dni= '00000005';
+i) delete from cliente where dni = '00000005'
+todavía no funciona
+j) 1.- alter table empresa modify (nombreE CHAR(30));
+2.- alter table empresa modify (nombreE CHAR(3));
+no se pueder hacer ,decir en cada caso porqué?
+k) alter table empresa modify (capital float);
+l) alter table empresa add ( NIF CHAR(8) not null);
+porque no se puede? cual es la solucion si no borramos las tuplas?
+m) alter table empresa modify
+( NIF CHAR(8) not null references cliente(DNI));
+porque falla?
+n) create unique index cotind on empresa(cotizacion);
+ñ) create unique index dirind on cliente(direccion);
+porque falla?
+o) – Salvar a fichero la sesión: c:\hlocal\GRUPOdb\prac14.txt
+Como se hizo anteriormente
